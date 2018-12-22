@@ -1,3 +1,21 @@
 .dropdown-toggle {
     cursor: pointer;
 }
+
+.badge-pill{
+    margin-left: 4px;
+}
+
+.navColor{
+    background-color: #078d67;
+}
+
+.navStyle {
+    color: white !important;
+    font-weight: bold;
+}
+
+.brandImg{
+    font-size: larger;
+    color: white;
+}
