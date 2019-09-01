@@ -1,5 +1,7 @@
 .card {
-    margin-bottom: 30px;
+    margin: 0px 6px 13px 6px;
+    border: none;
+    width: 270px
 }
 
 .card-footer{

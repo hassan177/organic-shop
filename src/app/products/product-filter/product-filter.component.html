@@ -10,7 +10,7 @@
         routerLink="/"
         [queryParams]="{ category: c.$key}"
         [class.active]="category === c.$key">
-        {{ c.name }}
+        <img src="../../../assets/icons/{{icons[c.name]}}" width="35px"> {{ c.name }}
     </a>
   </div>
 </div>

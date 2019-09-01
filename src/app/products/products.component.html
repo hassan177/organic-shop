@@ -1,16 +1,12 @@
+<img src="../../assets/images/1.png" alt="image" style="width: 100%; margin-bottom: 17px;">
 <div class="row">
   <div class="col-3">
     <app-product-filter [category]="category"></app-product-filter>
   </div>
-  <div class="col">
-      <div class="row" *ngIf="cart$ | async as cart">
-              <div class="col-4" *ngFor="let p of filteredProducts; let i = index">
-                  <app-product-card [product]="p" [shopping-cart]="cart"></app-product-card>
-              </div>
-              <div *ngIf="(i + 1) % 2 === 0" class="w-100"></div>
-        </div>
+  <div class="products-container" *ngIf="cart$ | async as cart">
+    <div *ngFor="let p of filteredProducts; let i = index">
+      <app-product-card [product]="p" [shopping-cart]="cart"></app-product-card>
+    </div>
+    <div *ngIf="(i + 1) % 2 === 0" class="w-100"></div>
   </div>
 </div>
-
-
-

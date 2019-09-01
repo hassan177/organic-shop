@@ -10,7 +10,6 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BsNavbarComponent } from './bs-navbar/bs-navbar.component';
-import { HomeComponent } from './home/home.component';
 import { ProductsComponent } from './products/products.component';
 import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
 import { CheckOutComponent } from './check-out/check-out.component';
@@ -39,7 +38,6 @@ import { ShippingFormComponent } from './shipping-form/shipping-form.component';
   declarations: [
     AppComponent,
     BsNavbarComponent,
-    HomeComponent,
     ProductsComponent,
     ShoppingCartComponent,
     CheckOutComponent,

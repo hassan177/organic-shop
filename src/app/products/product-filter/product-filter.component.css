@@ -6,3 +6,13 @@
 .list-group-item.active{
     background-color: #078d67;
 }
+
+.list-group-item {
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+}
+
+a img {
+    margin-right: 10px;
+}

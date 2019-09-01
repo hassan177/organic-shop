@@ -7,7 +7,7 @@
 }
 
 .navColor{
-    background-color: #078d67;
+    background-color: #495057;
 }
 
 .navStyle {
@@ -19,3 +19,11 @@
     font-size: larger;
     color: white;
 }
+
+/* .navbar-brand:active {
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: white;
+} */
