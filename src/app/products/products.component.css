@@ -2,7 +2,27 @@
     flex-wrap: unset;
 }
 
+.main-container{
+    display: flex;
+    flex-wrap: unset;
+}
+
 .products-container{
     display: flex;
     flex-wrap: wrap;
+    max-width: 75%;
 }
+
+.filter-box {
+    width: 25%;
+    max-width: 25%;
+    margin-right: 10px;
+    width: 25%;
+    max-width: 25%;
+}
+
+@media only screen and (max-width: 735px) {
+    .filter-box {
+        display: none;
+    }
+  }

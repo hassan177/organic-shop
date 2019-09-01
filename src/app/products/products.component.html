@@ -1,6 +1,6 @@
 <img src="../../assets/images/1.png" alt="image" style="width: 100%; margin-bottom: 17px;">
-<div class="row">
-  <div class="col-3">
+<div class="main-container">
+  <div class="filter-box">
     <app-product-filter [category]="category"></app-product-filter>
   </div>
   <div class="products-container" *ngIf="cart$ | async as cart">
