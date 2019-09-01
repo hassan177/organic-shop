@@ -1,5 +1,6 @@
-<h1>Shopping Cart</h1>
-<div class="row col-10" *ngIf="cart$ | async as cart">
+<div class="cart-container">
+  <h1>Shopping Cart</h1>
+<div *ngIf="cart$ | async as cart">
   <p>
     You have {{ cart.totalItemsCount }} items in your shopping cart.
     <button
@@ -38,4 +39,5 @@
     *ngIf="cart.items.length"
     routerLink="/check-out"
     class="btn btnColor">Check Out</a>
+</div>
 </div>

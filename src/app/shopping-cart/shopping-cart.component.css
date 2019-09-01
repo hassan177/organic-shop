@@ -9,3 +9,9 @@
     background-color: #078d67;
     color: white;
 }
+
+.cart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
